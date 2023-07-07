@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOUNTHOG TREKS</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+   integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+   
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap" rel="stylesheet">
+ 
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+   integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+     
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+
+</head>
+<style>
+body{ 
+    margin: 0;
+    padding: 0;
+    background-color: #f1dbb5;   
+}  
+.navbar{
+    background-color: rgb(241, 193, 131);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 5px solid rgb(255, 145, 2);   
+}
+
+.buttons{
+    border-radius: 10px;
+    font-size: x-large;
+    background-color: rgb(243, 221, 203);
+    font-family: 'Noto Sans', sans-serif;
+    border-color: rgb(250, 214, 185);
+    color: rgb(0, 0, 0);
+}
+  
+
+#bg{
+  background-image: url(BG.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 98.73vw;
+  height: 100vh;
+}
+
+
+.Upcoming{
+    display: flex;
+    gap: 100px;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+ 
+.card-text{
+  font-family: 'Ysabeau Infant', sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+
+}
+
+.card-title{
+  text-align: center;
+  font-weight: bold;
+}
+
+ 
+#coming-soon{
+  margin: 10px;
+  background-color: #c7ee6b;
+  color: rgb(11, 55, 105);
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
+  border: 3px solid #91c023;
+}
+
+.grid{
+  margin-top: 20px;
+  background-color: #F6FFDE;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.head{
+  background-color: #154bbe;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  color: #fcf6ed;
+  font-size: 40px;
+  grid-area: 1/2/1/3;
+}
+
+.logo{
+  grid-area: 2/3/4/4;
+  padding-top: 90px;
+  padding-bottom: 0;
+  margin: 0;
+  padding-left: 30px;
+}
+    
+.reasons{
+  grid-area: 2/1/2/3;
+  font-family: 'Barlow', sans-serif;
+  font-size: 35px;
+  font-weight: bolder;
+  color: rgb(0, 0, 37);
+  padding-top: 100px;
+  margin-left: 30px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+a{
+  text-decoration: none;
+}
+      
+ul{
+  list-style: none;
+}      
+
+.cont{
+    background-color: rgb(207, 125, 69);
+    color: white;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 50px;
+    border-top: 3px solid black;
+}
+
+.nav{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+
+
+</style>
+
+<body>
+    <div class="navbar">
+        <div><img src="MOUNTHOG.png" height="100px"></div>
+        <div class="navitems"><a href="index.html"><button class="buttons">Home</button></a></div>
+        <div class="navitems"><a href=""><button class="buttons">Our Story</button></a></div>
+        <div class="navitems"><a href="Upcomming.html"><button class="buttons">Upcoming Treks</button></a></div>
+        <div class="navitems"><a href=""><button class="buttons">Previous Treks</button></a></div>
+        <div class="navitems"><a href="article.html"><button class="buttons">Articles</button></a></div>
+        <div class="navitems"><a href="Contact.html"><button class="buttons">Contact Us</button></a></div>
+    </div>
+  
+    <div id="bg"></div>
+  
+  <hr />
+  
+<div class="cards">
+  <div id="coming-soon">Most Anticipated Treks !!!</div>
+<div class="Upcoming">
+  <div class="card" style="width: 30rem;">
+    <img src="Harishchandragad.jpg" class="card-img-top" alt="Harishchandragad">
+    <div class="card-body">
+      <h4 class="card-title">Harishchandragad Trek</h4>
+      <p><ul class="card-text">
+        <li>Location:</li>
+        <li>Duration:</li>
+        <li>Dates:</li>
+      </ul></p>
+      <a href="#" class="btn btn-primary">Book Your Trip</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 30rem;">
+    <img src="Kauri pass trek.jpg" class="card-img-top" alt="Kauri Pass">
+    <div class="card-body">
+      <h4 class="card-title">Kauri Pass Trek</h4>
+      <p><ul class="card-text">
+        <li>Location:</li>
+        <li>Duration:</li>
+        <li>Dates:</li>
+      </ul></p>
+      <a href="#" class="btn btn-primary">Book Your Trip</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 30rem;">
+    <img src="kotagiri.jpg" class="card-img-top" alt="Kotagiri">
+    <div class="card-body">
+      <h4 class="card-title">Kotagiri</h4>
+      <p><ul class="card-text">
+        <li>Location:</li>
+        <li>Duration:</li>
+        <li>Dates:</li>
+      </ul></p>
+      <a href="#" class="btn btn-primary">Book Your Trip</a>
+    </div>
+  </div>
+</div>
+ 
+<div class="Upcoming">
+  <div class="card" style="width: 30rem;">
+    <img src="Nongriat.jpg" class="card-img-top" alt="Nonigrat">
+    <div class="card-body">
+      <h4 class="card-title">Nongriat Trek</h4>
+      <p><ul class="card-text">
+        <li>Location:</li>
+        <li>Duration:</li>
+        <li>Dates:</li>
+      </ul></p>
+      <a href="#" class="btn btn-primary">Book Your Trip</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 30rem;">
+    <img src="chokramudi.jpg" class="card-img-top" alt="Chokramudi">
+    <div class="card-body">
+      <h4 class="card-title">Chokramudi Trek</h4>
+      <p><ul  class="card-text">
+        <li>Location:</li>
+        <li>Duration:</li>
+        <li>Dates:</li>
+      </ul></p>
+      <a href="#" class="btn btn-primary">Book Your Trip</a>
+    </div>
+  </div>
+  
+</div>
+
+</div>
+<hr />
+
+<div class="grid">
+  <div class="head">
+    WHY TRAVEL WITH US?
+  </div>
+  <div class="reasons">
+    <ul style="list-style: circle;">
+      <li>Enjoy the convenience of delicious lunches during your trekking days with energizing meals prepared with local ingredients</li>
+      <li>Travel light and leave the logistics to us, porter services to carry your heavy bags, leaving you to fully enjoy the trek</li>
+      <li>Capture stunning moments with our professional photography service cherish breathtaking landscapes and epic group shots</li>
+      <li>Experienced guides, comprehensive medical kits, and emergency evacuation plans ensure a worry-free trekking experience</li>
+      <li>Learn about local flora and fauna, stargazing, or even photography techniques from our experts and guides</li>
+      <li>Interact with locals, savor traditional cuisine, and immerse yourself in their way of life</li>
+    </ul>
+  </div>
+
+  <div class="logo">
+    <img src="Untitled design.png" style="max-height: 80%;">
+  </div>
+  
+</div>
+
+<div class="cont">
+  <footer class="py-5">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h3>Section</h3>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="index.html" class="nav" >Home</a></li>
+          <li class="nav-item mb-2"><a href="" class="nav">Our Story</a></li>
+          <li class="nav-item mb-2"><a href="Upcomming.html" class="nav">Upcoming Treks</a></li>
+          <li class="nav-item mb-2"><a href="article.html" class="nav">Articles</a></li>
+          <li class="nav-item mb-2"><a href="Contact.html" class="nav">Contact Us</a></li>
+        </ul>
+      </div>
+
+      
+
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h3>Subscribe to our newsletter</h3>
+          <h5>Monthly digest of what's new and exciting from us.</h5>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-primary" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <h4>© 2023 MOUNTHOG TREKS, Inc. All rights reserved.</h4>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul>
+    </div>
+  </footer>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
